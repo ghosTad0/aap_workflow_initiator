@@ -1,0 +1,7 @@
+[2024-01-15 01:36:21 +0530] [38724] [INFO] Starting gunicorn 21.2.0
+[2024-01-15 01:36:21 +0530] [38724] [INFO] Listening at: http://0.0.0.0:12000 (38724)
+[2024-01-15 01:36:21 +0530] [38724] [INFO] Using worker: sync
+[2024-01-15 01:36:21 +0530] [38725] [INFO] Booting worker with pid: 38725
+[2024-01-15 01:36:51 +0530] [38724] [INFO] Handling signal: int
+[2024-01-15 01:36:51 +0530] [38725] [INFO] Worker exiting (pid: 38725)
+[2024-01-15 01:36:51 +0530] [38724] [INFO] Shutting down: Master

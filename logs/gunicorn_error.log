@@ -5,3 +5,17 @@
 [2024-01-15 01:36:51 +0530] [38724] [INFO] Handling signal: int
 [2024-01-15 01:36:51 +0530] [38725] [INFO] Worker exiting (pid: 38725)
 [2024-01-15 01:36:51 +0530] [38724] [INFO] Shutting down: Master
+[2024-08-27 15:04:06 +0530] [276735] [INFO] Starting gunicorn 23.0.0
+[2024-08-27 15:04:06 +0530] [276735] [INFO] Listening at: http://0.0.0.0:12000 (276735)
+[2024-08-27 15:04:06 +0530] [276735] [INFO] Using worker: sync
+[2024-08-27 15:04:06 +0530] [276736] [INFO] Booting worker with pid: 276736
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:17 +0530] [276735] [INFO] Handling signal: winch
+[2024-08-27 15:04:47 +0530] [276735] [INFO] Handling signal: int
+[2024-08-27 15:04:47 +0530] [276736] [INFO] Worker exiting (pid: 276736)
+[2024-08-27 15:04:47 +0530] [276735] [INFO] Shutting down: Master

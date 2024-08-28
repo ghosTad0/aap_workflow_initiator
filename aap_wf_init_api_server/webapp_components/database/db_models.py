@@ -8,15 +8,15 @@ class User(db.Model): # type: ignore
     username: Mapped[str] = mapped_column(String(20), unique=True)
     email: Mapped[str] = mapped_column(String(100), unique=True)
 
-class repo_syncs(db.Model):
+class repo_sync(db.Model):
     id: Mapped[int] = mapped_column(primary_key=True)
     repo_url: Mapped[str] = mapped_column(String(200))
 
-class associated_workflows(db.Model):
+class workflow(db.Model):   #associated workflow
     id: Mapped[int] = mapped_column(primary_key=True)
     workflow_url = Mapped[str] = mapped_column(String(200))
 
-class workflow_triggers(db.Model):
+class workflow_trigger(db.Model):
     id: Mapped[int] = mapped_column(primary_key=True)
     type: Mapped[str] = mapped_column(String(20))
     filenames: Mapped[str] = mapped_column(String(200))

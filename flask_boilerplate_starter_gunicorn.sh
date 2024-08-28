@@ -6,6 +6,8 @@
 #     --access-logformat "${ACCESS_LOG_FORMAT}" --timeout ${TIMEOUT} --worker-class sync --threads ${THREADS} --workers ${WORKERS} --max-requests ${MAX_REQUESTS} \
 #     --max-requests-jitter ${MAX_REQUESTS_JITTER} --preload --name vimadp_api_server --bind 0.0.0.0:5036 --config gunicorn_config.py vimadp_api:app
 
+python build_db.py
+
 if [ ! -d logs ]; then
     echo "Created 'logs' directory!"
     mkdir logs
